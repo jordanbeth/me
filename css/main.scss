@@ -99,11 +99,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		display: list-item;
 		list-style: square;
 		text-align: left;
-		margin-left: 10%;
+		margin-left: 5%;
 		padding-right: 10%;
 		width: 100%;
 		color: lightgrey;
 	}
+
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
