@@ -5,12 +5,12 @@
 title: Jordan Beth
 description:
 owner: Jordan Beth # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2017 # if migrating another site, the year of your first publish
 email: jordanbeth14@gmail.com
 baseurl:  # the subpath of your site, e.g. /blog
 url: "http://jordanbeth.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  #twitter:
   github: https://github.com/jordanbeth
   linkedin-square: https://www.linkedin.com/in/jordan-beth-79b3b9137/
   email: jordanbeth14@gmail.com
@@ -50,5 +50,5 @@ social:
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+sass:
+   style: compressed
