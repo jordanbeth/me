@@ -4,7 +4,7 @@ layout: landing
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>{{ site.title }}</h2>
+							<h2 id="my-name-title">{{ site.title }}</h2>
 							<p>{{ site.description | markdownify }}</p>
 							<ul class="actions">
 								<li><a href="https://resume.creddle.io/resume/7yuc1dnscs6" class="button special">Résumé</a></li>
@@ -18,7 +18,7 @@ layout: landing
 						<div class="inner">
 							<header class="major">
 								<h2>Aspiring Software &amp; Web Developer</h2>
-								<p>My goal is to create beautiful and meaningful technology that has a positive impact on society.</p>
+								<p>My goal is to create beautiful, meaningful, and impactful technology.</p>
 
 							</header>
 							<ul class="icons major">
@@ -29,63 +29,32 @@ layout: landing
 						</div>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
-
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Projects</h2>
+								<p>Here are some of the projects I have created while studying at DevBootcamp.</p>
 							</header>
 							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="icon">
+									<h3><a href="https://github.com/jordanbeth/MirrorMirror" >Mirror Mirror</a></h3>
+									<p>Built and programmed a rasberry pi driven smart mirror as a team final project. The project was completed over a timespan of 7 days.</p>
+										<p class="p-list-item">Used a JavaScript based, open source platform, as the core driver. </p>
+										<p class="p-list-item">On top of the platform, we built all of the modules (features) for the mirror. </p>
+										<p class="p-list-item">We used IBM Watson, to allow the user to interact with the mirror through voice commands.</p>
+										<p class="p-list-item">For our custom modules, we used, Yahoo Weather API, News API, Google Maps API, MapQuest Traffic API, tambalAPI, Embedded Youtube/Facebook IFrame elements.</p>
 								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="icon">
+									<h3><a href="https://github.com/jordanbeth/IMDB">IMDB Clone</a></h3>
+									<p>As a team, we used the OMBD API to build a rails application that behaves similar to IMBD.</p>
+									<p class="p-list-item">This application uses bcrypt for user authentication and React Rails to make the front page load dynamically.</p>
+									<p class="p-list-item">Once registered, the user can search for movies, add movies to a watch list, 'favorite' movies, have conversations about movies, and has a profile that displays an activity feed of all of these features.</p>
 								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="icon">
+									<h3><a href="https://github.com/jordanbeth/wiki-project">BORD</a></h3>
+									<p>Over two days, I built a website that allows a user to create an account and query Wikipedia using the MediaWiki API. Once the query was made, the results were saved to the user's history list.</p>
+									<p class="p-list-item">JQuery and AJAX were used for asynchronously updating the DOM and making API calls.</p>
 								</li>
 							</ul>
 						</div>
@@ -95,12 +64,12 @@ layout: landing
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Contact</h2>
+								<p>If you would like to reach me click below</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#" class="button fit special">Hire</a></li>
+								<li><a href="#" class="button fit">Back</a></li>
 							</ul>
 						</div>
 					</section>
