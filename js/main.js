@@ -103,7 +103,8 @@
 $(document).ready(function(){
 
 		$(window).on("load", function(){
-			$("#my-name-title").animate({});
+			var $title = $("#my-name-title")
+			$title.animate({fontSize: '2em'}, "slow");
 		});
 
 })
