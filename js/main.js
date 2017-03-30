@@ -97,4 +97,13 @@
 
 	});
 
+
 })(jQuery);
+
+$(document).ready(function(){
+
+		$(window).on("load", function(){
+			$("#my-name-title").animate({});
+		});
+
+})
